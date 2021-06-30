@@ -1,7 +1,7 @@
-const { TestWatcher } = require("jest");
+const test_bot = require("../index");
 
 describe("Telegram Bot", () => {
-  test("Number summ", () => {
+  test("Bot has started", () => {
     expect(2 + 2).toEqual(4);
   });
 });

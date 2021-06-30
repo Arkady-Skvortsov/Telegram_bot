@@ -8,5 +8,4 @@ RUN npm install && npm run test
 
 COPY . ./
 
-
 CMD [ "npm", "run", "dev" ]
